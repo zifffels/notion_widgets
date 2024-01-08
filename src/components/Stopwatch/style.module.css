@@ -1,0 +1,11 @@
+.stopwatch {
+  align-items: center;
+  display: flex;
+  gap: 1.5em;
+}
+
+@media (orientation: portrait) and (width < 500px) {
+  .stopwatch {
+    flex-direction: column;
+  }
+}
